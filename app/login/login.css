@@ -1,0 +1,59 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Keep position relative */
+}
+
+.logo {
+    position: absolute; /* Position the logo absolutely */
+    top: 10px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    width: 80px; /* Adjust the width for a smaller logo */
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60px; 
+    margin-left: 20px;/* Adjust margin-top to create space below the logo */
+    background-color: yellow;
+    padding-left: 10px;
+}
+
+.input-group {
+    margin-top: 20px; /* Adjust margin-top for input groups */
+    text-align: left;
+    display: flex; /* Use flexbox to align label and input */
+    align-items: center; /* Align items vertically */
+}
+
+.input-group label {
+    flex: 1; /* Let label take as much space as needed */
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    flex: 3; /* Let input take more space than label */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100%; /* Make button full width */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin between input and button */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
